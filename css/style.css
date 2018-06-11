@@ -1,0 +1,561 @@
+
+@font-face {
+font-family: "Zahara-Regular";
+src: url("css/fonts/Zahara-Regular.otf");
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Zahara-Regular';
+}
+a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+button, input[type=submit] {
+    background-color: #2A394B;
+    border-radius: 10px;
+    font-size: 1.2;
+    color: #fff;
+    padding: 7px;
+    margin: 10px;
+}
+
+
+
+
+/* The Biography Page */
+.biography {
+    margin-top: 70px;
+    background-color: #d5d4d9;
+    padding: 20px;
+}
+.biography h1{
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+}
+.biography h3{
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+#mobile {
+    color: black;
+    display: inline-block
+    text-align: center;
+
+
+    
+}
+#envel {
+    color: black;
+    display: inline-block
+    text-align: center;
+    margin-left: 50px;
+
+
+}
+
+/* The Testimonials Page */
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #d5d4d9;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.tests {
+  min-height: 50rem; 
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+    align-content: center;
+}
+
+.ten {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card-text {
+  font-size: 85%;
+}
+.buffer {
+    margin-bottom: 7em;
+    margin-top: 7em;
+    margin-left: 12em;
+    margin-right: auto;
+}
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 183px;
+  margin: 0 1.5em 1.5em 0;
+  position: relative;
+  width: 275px;
+  text-align: center;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(74,90,108,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 183px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 275px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+
+
+/* The Neighboorhood Page */
+
+.favs {
+    margin-top: 70px;
+    background-color: #d5d4d9;
+    padding: 60px;
+    padding-bottom: 80px;
+}
+.favs h1{
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+}
+.favs p {
+    padding-top: 10px;
+}
+
+div.img-div {
+   height: 350px;
+    width: 400px;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+span.text-div span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+    padding: 0;
+}
+span.text-div {
+  background: rgba(74,90,108,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  font-size: 2em;
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 400px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+div.img-div:hover span.text-div {
+  opacity: 1;
+}
+
+/* The Favorite Things Page */
+
+#love{
+    margin-top: 70px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+
+
+/* The Video Gallery Page */
+
+.pb-video-container{
+    margin-top: 70px;
+    padding-bottom: 40px;
+    background-color: #d5d4d9;
+}
+#twelve{
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+}
+.pb-video {
+     padding: 5px;
+     padding-left: 15px;
+    }
+
+  .pb-video:hover {
+            background:
+        }
+
+ .pb-video-frame {
+        transition: width 2s, height 2s;
+    }
+
+.pb-video-frame:hover {
+            height: 250px;
+        }
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font: Arial;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,.9);
+}
+
+
+.portrait {
+  float: left;
+  width: 50%;
+  padding: .75rem;
+  margin-bottom: 1rem;
+  border: 0;
+}
+
+.card {
+  float: left;
+  width: 50%;
+  padding: .75rem;
+  margin-bottom: 1rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  max-width: 100%;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+#gallery img{
+    display: flex;
+    height: 300px;
+    width: 350px;
+}
+
+/* MLS Page */
+.mls {
+    height: 80px;
+    background: grey;
+}
+
+
+
+/* Footer */
+.footer{
+    background: #2a394b;
+    padding: 1em;
+    margin: 0;
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    padding-bottom: .1em;
+}
+#social{
+    color: #fff;
+}
+
+/* Contact Us on Main Page */
+.contact{
+    background-image: url(../img/lake.png);
+    background-size: 100%;
+    background-position: center center;
+    position: relative;
+    top:0;
+    bottom: 0;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    overflow: hidden;
+}
+#form {
+    background: rgba(0,0,0, 0.2);
+    border: solid 3px;
+    margin-top: 6em;
+    color: #fff;
+    text-align: center;
+ }
+.eight {
+    text-align: center;
+}
+.seven{
+    padding-top: 15px;
+}
+.page{
+    background: rgba(0,0,0,0.2);
+    border: solid 3px;
+    padding: 0.8em;
+    margin-top: 10em;
+    color: #fff;
+    text-align: center;
+}
+
+/* Featured Listings on Main Page */
+#bed, #bath, #car{
+    color: black;
+    text-align: center;
+    display: inline-block;
+
+}
+#wow{
+    text-align: center;
+}
+#wow h3{
+    color: black;
+}
+#wow ul li{
+    display: inline;
+    text-align: center;
+}
+
+
+.featured {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #fff;
+    width: 100%;
+}
+.featured .again {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.again h1{
+    text-align: center;
+}
+.carousel {
+    margin-bottom: 50px;
+}
+
+/* Video Spotlight on Main Page */
+video {
+    display: block;
+    margin: 0 auto;
+}
+#spotlight {
+    background: #D5D4D9;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+.two{
+    padding-top: 2rem;
+    text-align: center;
+}
+.three{
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Neighborhood on main page */
+ 
+.gal-item .box{
+    height: 350px;
+
+}
+.gal-item .alt {
+    position: relative;
+}
+.absolute {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,.8);
+    margin-bottom: 2em;
+}
+
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+
+/* About on main page */
+
+.about {
+    background: #D5D4D9;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+#one{
+    margin: 2rem;
+}
+
+/* Video Background */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.video-background {
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#overlay h1 {
+    font-size: 4em;
+    font-weight: 700;
+    margin: 0;
+}
+
+#overlay h2 {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+/* Navigation */
+#mainNav {
+    background: rgba(74,90,108,1);
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    z-index: 999999999;
+}
+.nav-item {
+    padding-right: 30px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+#navbarDropdownMenuLink, #neigh, #vid, #con  {
+    color: #fff;
+}
+.dropdown-item{
+    background: #4A5A6C;
+    display: inline-block;
+    color: #fff;
+    padding-right: 30px;
+    font-weight: 100;
+    position: flex;
+}
+.ml_auto {
+    color: #fff;
+}
+.logo{
+    background: transparent;
+}
+#navbarResponsive{
+    background: #4a5a6c;
+    
+}
+
+/* Screens smaller than 767px */
+
+/*
+@media (max-width: 767px) {
+.video-container {
+  background: url('') center center/cover no-repeat;
+}
+
+.video-background {
+display: none;
+}
+}
+
+#logo {
+padding-left: 20px;
+font-size: 1.2em;
+}
+
+#overlay h1 {
+ font-size: 2.2em;
+}
+
+#overlay h2 {
+ font-size: 1.2em;
+}
+*/
